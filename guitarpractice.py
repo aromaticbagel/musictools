@@ -12,7 +12,7 @@ session_lengths = list(range(25, 901))
 engine = pyttsx3.init()
 
 # Prompt the user for input with vocal narration
-engine.say("Vic. Apollo! Welcome back to practice.")
+engine.say("Hey, there! Welcome back to practice.")
 engine.runAndWait()
 user_input = input()
 
